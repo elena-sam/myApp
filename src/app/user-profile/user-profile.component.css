@@ -1,0 +1,14 @@
+p {
+  font-weight: bold;
+}
+span {
+  font-weight: 400;
+}
+
+button {
+  border: 1px solid blueviolet;
+  background: #c6a5e4;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,11 @@
+<img src="{{user.photo}}" alt="user's pic">
+<br>
+<p>Mon crédo : <span>{{user.quote}}</span></p>
+<label for="usersQuote">Modifier la citation : </label>
+  <input id="usersQuote" type="text" [(ngModel)]="user.quote">
+
+<p>Mon âge : <span [hidden]="ageHidden">{{user.age}}</span></p>
+<p>Nom : <span>{{user.name}}</span></p>
+<p>Prénom : <span>{{user.firstName}}</span></p>
+
+<button (click)="hideAge()">Je suis timide ; masquez mon âge</button>
