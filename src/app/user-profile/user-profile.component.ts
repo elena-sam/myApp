@@ -15,9 +15,4 @@ export class UserProfileComponent implements OnInit {
     this.user = new User('Doe', 'John', 25, 'two beer or not to be', 'https://randomuser.me/api/portraits/lego/2.jpg');
     this.ageHidden = false;
   }
-
-  hideAge() {
-    this.ageHidden = !this.ageHidden;
-  }
-
 }

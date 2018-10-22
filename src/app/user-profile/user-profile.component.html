@@ -8,4 +8,4 @@
 <p>Nom : <span>{{user.name}}</span></p>
 <p>Prénom : <span>{{user.firstName}}</span></p>
 
-<button (click)="hideAge()">Je suis timide ; masquez mon âge</button>
+<button (click)="ageHidden = !ageHidden">{{ ageHidden ? 'J\'ai 0 complexe ; affichez mon âge':'Je suis timide ; masquez mon âge'}}</button>
