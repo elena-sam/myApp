@@ -10,6 +10,7 @@ import { MenuComponent } from './menu/menu.component';
 import { ROUTES } from './app.routes';
 import { HighlightDirective } from './highlight.directive';
 import { DisplayGuestsDirective } from './display-guests.directive';
+import { MovieListComponent } from './movie-list/movie-list.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { DisplayGuestsDirective } from './display-guests.directive';
     UserProfileComponent,
     MenuComponent,
     HighlightDirective,
-    DisplayGuestsDirective
+    DisplayGuestsDirective,
+    MovieListComponent
   ],
   imports: [
     BrowserModule,

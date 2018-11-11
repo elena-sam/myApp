@@ -1,0 +1,72 @@
+<div class="container">
+  <button type="button" name="button" class="btn btn-success" (click)="displayMovieList = !displayMovieList">{{ displayMovieList ? 'Masquer la liste des films' : 'Afficher la liste des films' }}</button>
+  <!--ou entourer de :
+  <ng-template [appDisplayGuests]="displayMovieList">
+  -->
+  <div class="card-columns mb-3" *appDisplayGuests="displayMovieList">
+    <div class="card" [appHighlight]="'aquamarine'">
+      <p class="card-text m-2">12 To the moon film fantastique de David Bradley avec Ken Clark, Michi Kobi et Tom Conway.</p>
+    </div>
+    <div class="card" [appHighlight]="'aquamarine'">
+      <p class="card-text m-2">À bout de souffle de Jean-Luc Godard - sortie en France le 16 mars.</p>
+    </div>
+    <div class="card" [appHighlight]="'aquamarine'">
+      <p class="card-text m-2">Celui par qui le scandale arrive (Home from the hill) de Vincente Minnelli.</p>
+    </div>
+    <div class="card" [appHighlight]="'aquamarine'">
+      <p class="card-text m-2">Crésus de Jean Giono - sortie en France le 21 septembre.</p>
+    </div>
+    <div class="card" [appHighlight]="'aquamarine'">
+      <p class="card-text m-2">Death traps drame de Tianlin Wang avec Helen Li et Roy Chiao.</p>
+    </div>
+    <div class="card" [appHighlight]="'aquamarine'">
+      <p class="card-text m-2">La Ballade du soldat (Ballada o soldatie) de Grigori Tchoukhraï (URSS).</p>
+    </div>
+    <div class="card" [appHighlight]="'aquamarine'">
+      <p class="card-text m-2">La Chute de la maison Usher (House of Usher) film fantastique de Roger Corman avec Vincent Price et Mark Damon.</p>
+    </div>
+    <div class="card" [appHighlight]="'aquamarine'">
+      <p class="card-text m-2">La Dame au petit chien (Dama s sobatchkoi) d'Iossif Kheifitz (URSS).</p>
+    </div>
+    <div class="card" [appHighlight]="'aquamarine'">
+      <p class="card-text m-2">La dolce vita de Federico Fellini.</p>
+    </div>
+    <div class="card" [appHighlight]="'aquamarine'">
+      <p class="card-text m-2">La Machine à explorer le temps (The Time Machine) film fantastique de George Pal avec Rod Taylor, Alan Young et Yvette Mimieux.</p>
+    </div>
+    <div class="card" [appHighlight]="'aquamarine'">
+      <p class="card-text m-2">L'Amérique insolite documentaire de François Reichenbach.</p>
+    </div>
+    <div class="card" [appHighlight]="'aquamarine'">
+      <p class="card-text m-2">La Vérité de Henri-Georges Clouzot - sortie en France le 2 novembre.</p>
+    </div>
+    <div class="card" [appHighlight]="'aquamarine'">
+      <p class="card-text m-2">L'Avventura de Michelangelo Antonioni avec Gabriele Ferzetti et Monica Vitti.</p>
+    </div>
+    <div class="card" [appHighlight]="'aquamarine'">
+      <p class="card-text m-2">Le Bossu d'André Hunebelle - sortie en France le 13 janvier.</p>
+    </div>
+    <div class="card" [appHighlight]="'aquamarine'">
+      <p class="card-text m-2">Le Capitan d'André Hunebelle - sortie en France le 5 octobre.</p>
+    </div>
+    <div class="card" [appHighlight]="'aquamarine'">
+      <p class="card-text m-2">La Jeune Fille (The Youg One) de Luis Buñuel (Mexique).</p>
+    </div>
+    <div class="card" [appHighlight]="'aquamarine'">
+      <p class="card-text m-2">Le Masque du démon (La Maschera del demonio) de Mario Bava avec Barbara Steele et Andrea Checchi.</p>
+    </div>
+    <div class="card" [appHighlight]="'aquamarine'">
+      <p class="card-text m-2">Le Moulin des supplices (Il Mulino delle donne di pietra) film fantastique de Giorgio Ferroni (Italie) avec Pierre Brice, Scilla Gabel et Wolfgang Preiss.</p>
+    </div>
+    <div class="card" [appHighlight]="'aquamarine'">
+      <p class="card-text m-2">Les 7 mercenaires (The Magnificent Seven) western de John Sturges, avec Yul Brynner, Eli Wallach, Horst Buchholz, Steve McQueen et Charles Bronson.</p>
+    </div>
+    <div class="card" [appHighlight]="'aquamarine'">
+      <p class="card-text m-2">Les Chevaliers teutoniques d'Aleksander Ford (Pologne).</p>
+    </div>
+  </div>
+
+  <!--
+  </ng-template>
+  -->
+</div>
